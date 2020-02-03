@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+<title>ホームページサンプル株式会社のサイトです</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<script src="js/css3-mediaqueries.js"></script>
+<![endif]-->
+<script src="js/jquery1.7.2.min.js"></script>
+<script src="js/script.js"></script>
+
+<!-- △テンプレート用△ -->
+<link href="main.css" rel="stylesheet">
+
+</head>
+
+<body>
+<header id="header">
+  <h1>ホームページサンプル株式会社のサイトです</h1>
+  
+  <!-- ロゴ -->
+	<div class="logo">
+		<a href="index.html"><img src="images/logo1.png" width="45" height="45" alt="Sample site" /><p>介護タクシー　キウイバード<span>訪問介護事業所</span></p></a>
+	</div>
+	<!-- / ロゴ -->
+	<!-- 電話番号+受付時間 -->
+	<div class="info">
+		<p class="tel"><span>電話:</span> 012-3456-7890</p>
+		<p class="open">受付時間: 平日 AM 10:00 〜 PM 5:00</p>
+	</div>
+	<!-- / 電話番号+受付時間 -->
+</header>
+
+<!-- メインナビゲーション -->
+<nav id="mainNav">
+	<div class="inner">
+  	<a class="menu" id="menu"><span>MENU</span></a>
+		<div class="panel">   
+    	<ul>
+    		<li class="active"><a href="top.html"><strong>トップページ</strong><span>Top</span></a></li>
+				<li><a href="subpage.html"><strong>介護タクシー</strong><span>Greeting</span></a></li>
+				<li><a href="subpage.html"><strong>料金表</strong><span>Service</span></a></li>
+				<li><a href="subpage.html"><strong>ご利用チャート</strong><span>Approach</span></a></li>
+				<li><a href="subpage.html"><strong>会社概要</strong><span>Company</span></a></li>
+				<li><a href="subpage.html"><strong>介護事業所の方へ</strong><span>Approach</span></a></li>
+				<li><a href="subpage.html"><strong>お役立ち資料</strong><span>Company</span></a></li>
+				<li class="last"><a href="sub-mailform.html"><strong>お問い合わせ</strong><span>Contact</span></a></li>
+			</ul>   
+    </div>
+	</div> 
+</nav>
+<!-- / メインナビゲーション -->
+  
+<div id="wrapper">
+  
+  <!-- メイン画像 -->
+	<div id="mainBanner">
+		<img src="images/016top.jpg" alt="">
+    <!--<div class="slogan">
+			<h2>自然との調和を目指す企業です</h2>
+			<p>ホームページサンプル株式会社では最新技術と自然との調和を目指します。<br>革新的な技術で世の中を動かす企業を目指します。</p>
+		</div>-->
+	</div> 
+	<!-- / メイン画像 -->
+
+  <!-- 3カラム -->
+  <section class="gridWrapper">
+		<article class="grid">
+      <div class="box">
+				<img src="images/paste12_2.png" width="260" height="113" alt="">
+				<h3>ご利用チャートのご案内</h3>
+				<p>初めてご利用される方はこちらのチャートをご利用ください。</p>
+				<p class="readmore"><a href="subpage.html">ご利用チャートはこちら</a></p>
+      </div>
+		</article>
+		<article class="grid">
+			<div class="box">
+      	<img src="images/paste10_2.png" width="260" height="113" alt="">
+				<h3>会社概要</h3>
+				<p>ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす企業を目指します。</p>
+				<p class="readmore"><a href="subpage.html">詳細はこちら</a></p>
+      </div>
+		</article>
+    <article class="grid">
+    	<div class="box">
+				<img src="images/kaigoden.png" width="500" height="353" alt="">
+			</div>
+    </article>
+	</section>
+	<!-- / 3カラム -->
+  
+</div>
+<div id="app">
+    <!-- この#appの内側にテンプレートを書き込んでいく -->
+    <header>    
+      <div class="container">
+        <logo></logo>
+        <navi></navi>
+      </div><!-- .container -->
+      <keyimg></keyimg>
+      <main>  
+        <catch></catch>
+        <section id="1" class="gray-back"><product></product></section>
+        <section id="2"></section>
+        <section id="3" class="gray-back"><staff></staff></section>
+        <section id="4"></section>
+        <section id="5" class="gray-back"><flow></flow></section>
+      </main>
+    </header>
+  </div><!-- #app -->
+
+<!-- フッター -->
+<footer id="footer">
+	<div class="inner">
+  	<!-- 左側 -->
+		<div id="info" class="grid">
+			<!-- ロゴ -->
+			<div class="logo">
+				<a href="index.html"><img src="images/logo1.png" width="45" height="45" alt="Sample site"><p>Company Name<br><span>Your Company Slogan</span></p></a>
+			</div>
+			<!-- / ロゴ -->
+			<!-- 電話番号+受付時間 -->
+			<div class="info">
+				<p class="tel"><span>電話:</span> 012-3456-7890</p>
+				<p class="open">受付時間: 平日 AM 10:00 〜 PM 5:00</p>
+			</div>
+			<!-- / 電話番号+受付時間 -->
+		</div>  
+		<!-- / 左側 -->
+		<!-- 右側 ナビゲーション -->
+		<ul class="footnav">
+
+			<li><a href="subpage.html">介護タクシー</a></li>
+			<li><a href="subpage.html">料金表</a></li>
+			<li><a href="subpage.html">ご利用チャート</a></li>
+			<li><a href="subpage.html">会社概要</a></li>
+			<li><a href="subpage.html">介護事業所の方へ</a></li>
+			<li><a href="thankyou.html">お役立ち資料</a></li>
+			<li class="last"><a href="sub-mailform.html">お問い合わせ</a></li>
+		</ul>
+		<!-- / 右側 ナビゲーション -->
+	</div>
+</footer>
+<!-- / フッター -->
+<address>Copyright(c) 2013 Sample Inc. All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank" rel="nofollow">http://f-tpl.com</a></address>
+
+<script src="main.js"></script>
+</body>
+</html>
